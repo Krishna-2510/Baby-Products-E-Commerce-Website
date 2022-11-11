@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    z-index: 100;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+    /* background-color: blueviolet; */
+    background-image: url('babyback.jpg');
+}
+/* #nav{
+    z-index: 100;
+    position: sticky;
+    top:0px;
+    left: 0px; */
+/* } */
+#logo{
+    width: 90px;
+    height: 50px;
+    /* margin-top: 10px; */
+    margin-left: 70px; 
+    border-radius: 100px;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#links li{
+    list-style: none;
+    padding: 0 40px;
+    font-size: 20px;
+}
+#links li a{
+    font-family: 'Neucha';
+    font-weight: 1000;
+    text-decoration: none;
+    /* transition: 0.7s ease-in-out; */
+}
+#links li a:hover,#links li a.active{
+    border-bottom: 3px solid yellow;
+    
+}
+#hero{
+    height: 550px;
+    background-image: url(babyback2.jpg);
+    background-size: cover;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+}
+#frontpg h1{
+    font-size: 70px;
+    text-shadow: 0px 5px 5px black;
+    font-family: 'Allura';
+    font-style: italic;
+    color:blueviolet;
+}
+#frontpg h2{
+    font-family: 'Neucha';
+    font-size: 20px;
+}
+#maintext{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#maintext div{
+    background-color:rgba(255, 255, 255, 0.451);
+    text-align: center;
+    border-radius: 50px;
+    padding: 50px;
+}
+#features{
+    /* background-color: rgb(215, 202, 227); */
+    /* background-image: url('https://st4.depositphotos.com/4640111/41328/i/450/depositphotos_413282742-stock-photo-pink-feathers-textured-background-feather.jpg'); */
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#features div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.474);
+    border-radius: 20px;
+}
+#features div:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.474);
+}
+#features div h4{
+    padding: 10px;
+    font-family: 'Neucha';
+}
+#features div img{
+    width: 150px;
+    height: 170px;
+}
+.feat h4{
+     background-color: rgb(174, 121, 223);
+     margin: 10px;
+     border-radius: 20px;
+}
+#products{
+    padding: 50px 0;
+    background-image: url("https://i.pinimg.com/736x/87/a2/38/87a238a27c0c472f649ba4a46e96176e.jpg");
+}
+#products h1{
+    font-family: 'Neucha';
+    font-size: 45px;
+    text-align: center;
+}
+#products p{
+    text-align: center;
+    font-family:'Neucha';
+}
+#prod-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.prod-card{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: 10px;
+    padding:10px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    width: 310px;
+}
+.prod-card p{
+    font-size: 15px;
+}
+.prod-card:hover{
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+.prod-card img{
+    width: 290px;
+}
+
+a{
+    text-decoration: none;
+}
+#newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(187, 0, 255);
+    height: 127px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
+}
+#newsletter h1{
+    font-size: 33px;
+    color: rgb(246, 255, 0);
+}
+#newsletter p{
+    font-size: 20px;
+    color: white;
+}
+#newsletter p span{
+    color: rgb(4 4 112);
+}
+#newsletter input{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-size: 17px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4 4 112);
+    color: white;
+    font-size: 17px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}

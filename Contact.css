@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    z-index: 100;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+    background-image: url('babyback.jpg');
+}
+#logo{
+    width: 90px;
+    height: 50px;
+    margin-left: 70px; 
+    border-radius: 100px;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#links li{
+    list-style: none;
+    padding: 0 40px;
+    font-size: 20px;
+}
+#links li a{
+    font-family: 'Neucha';
+    font-weight: 1000;
+    text-decoration: none;
+    /* transition: 0.7s ease-in-out; */
+}
+#links li a:hover,#links li a.active{
+    border-bottom: 3px solid yellow;
+    
+}
+
+#back{
+    /* background-image: url('https://www.csileasing.com/wp-content/uploads/2022/03/Contact-us-polygon-texture-burg-dark.png'); */
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211217/pngtree-contact-us-for-banner-material-image_922362.jpg');
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 437px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgb(7 52 52 / 78%);
+    color: white;
+}
+input{
+    margin: 5px auto;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+}
+textarea{
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 17px;
+}
+#form{
+    text-align: center;
+}
+#form button{
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Neucha';
+}
+#form button:hover{
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+#form h1{
+    color: black;
+}
+#contact h1{
+    font-size: 35px;
+}
+#contact{
+    height: 415px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    /* background-color: black; */
+    /* color: white; */
+    padding-left: 20px;
+}
+#newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(187, 0, 255);
+    height: 127px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
+}
+#newsletter h1{
+    font-size: 33px;
+    color: rgb(246, 255, 0);
+}
+#newsletter p{
+    font-size: 20px;
+    color: white;
+}
+#newsletter p span{
+    color: rgb(4 4 112);
+}
+#newsletter input{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-size: 17px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4 4 112);
+    color: white;
+    font-size: 17px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}

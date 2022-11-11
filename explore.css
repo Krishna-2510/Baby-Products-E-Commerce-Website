@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    z-index: 100;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+    background-image: url('babyback.jpg');
+}
+#logo{
+    width: 90px;
+    height: 50px;
+    margin-left: 70px; 
+    border-radius: 100px;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#links li{
+    list-style: none;
+    padding: 0 40px;
+    font-size: 20px;
+}
+#links li a{
+    font-family: 'Neucha';
+    font-weight: 1000;
+    text-decoration: none;
+    /* transition: 0.7s ease-in-out; */
+}
+#links li a:hover,#links li a.active{
+    border-bottom: 3px solid yellow;
+    
+}
+#hero{
+    height: 550px;
+    background-image: url("https://i.pinimg.com/736x/87/a2/38/87a238a27c0c472f649ba4a46e96176e.jpg");
+    /* background-size: 1000px 1000px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+}
+#frontpg h1{
+    font-size: 70px;
+    text-shadow: 0px 5px 5px black;
+    font-family: 'Allura';
+    font-style: italic;
+    color:blueviolet;
+}
+#frontpg h2{
+    font-family: 'Neucha';
+    font-size: 20px;
+}
+#maintext{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#maintext div{
+    background-color:rgba(255, 255, 255, 0.451);
+    text-align: center;
+    border-radius: 50px;
+    padding: 50px;
+}
+#background_logo{
+    background-image: url('https://images.newindianexpress.com/expressdeals/assets/images/content/2022/09/13/original/Best_Baby_Product_Brands.jpg');
+    /* background-image: url('https://t4.ftcdn.net/jpg/05/30/49/91/360_F_530499143_ZaSMAHd1JO5k3g5RuvIa99hMWxf9Fr3e.jpg'); */
+    /* background-image: url('https://tse2.mm.bing.net/th?id=OIP.DOAcFHzciO4quUuiERdnBAHaHa&pid=Api&P=0'); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #0600007d;
+    height: 550px;
+}
+#background_logo h1{
+    background-color: rgba(225, 28, 255, 0.638);
+    border-radius: 40px;
+    font-size: 80px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 20px black;
+}
+a{
+    text-decoration: none;
+}
+#allproducts{
+    padding: 30px;
+    background-image: url('https://i.pinimg.com/736x/87/a2/38/87a238a27c0c472f649ba4a46e96176e.jpg');
+
+}
+#allproducts h1{
+    text-align: center;
+    font-family:'Neucha';
+    padding: 10px;
+    font-size: 30px;
+}
+.headimage{
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+    margin: 20px 0px;
+}
+#products{
+    padding: 50px 20px;
+    background-image: url("https://i.pinimg.com/736x/87/a2/38/87a238a27c0c472f649ba4a46e96176e.jpg");
+}
+#products h1{
+    font-family: 'Neucha';
+    font-size: 45px;
+    text-align: center;
+    background-color: blueviolet;
+}
+#products p{
+    text-align: center;
+    font-family:'Neucha';
+}
+#prod-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.224);
+    border-radius: 20px;
+    margin:0px 20px;
+    background-color: blueviolet;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.UrybQhrX8djFHKNFLuqUfQHaFT&pid=Api&P=0");
+}
+#prod-section button{
+    height: 30px;
+    width: 89px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.price{
+    font-size: 20px;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.butt button{
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Neucha';
+    background-color: blueviolet;
+    color: yellow;
+}
+.butt button:hover{
+    background-color: rgb(92, 29, 151);
+    cursor: pointer;
+}
+.prod-card{
+    background-color: rgba(227, 227, 227, 0.722);
+    border-radius:30px;
+    color:rgb(0, 0, 0);
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    width: 200px;
+    height: 260px;
+}
+.prod-card p{
+    font-size: 15px;
+}
+.prod-card img{
+    width: 155px;
+    height: 145px;
+    border-radius: 10%;
+    border:1px groove black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.69);
+}
+.prod-card img:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.69);
+}
+#outerbox{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    border-radius: 30px;
+    /* display: none; */
+}
+
+#buttons button{
+    width: 170px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: yellow;
+    border-radius: 20px;
+    margin: 10px 43px;
+    font-family: 'Neucha';
+}
+#buttons button:hover{
+    background-color: rgb(82, 28, 132);
+    cursor: pointer;
+
+}
+#newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(187, 0, 255);
+    height: 127px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
+}
+#newsletter h1{
+    font-size: 33px;
+    color: rgb(246, 255, 0);
+}
+#newsletter p{
+    font-size: 20px;
+    color: white;
+}
+#newsletter p span{
+    color: rgb(4 4 112);
+}
+#newsletter input{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-size: 17px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4 4 112);
+    color: white;
+    font-size: 17px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 5px 5px 10px black;
+}
+#newsletter button:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
